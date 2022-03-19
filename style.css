@@ -80,11 +80,13 @@ li a{
     flex: 0 1 auto;
 }
 .sing-up-button{
+    text-align: center;
+    border-radius: 6px;
     background-color: #3882f6;
     color: #e5e7eb;
     width: 80px;
     height: 25px;
-    flex: 0 1 0;
+    flex: 0 0 0;
 }
 .right-content{
     color: #e5e7eb;
@@ -145,6 +147,7 @@ li a{
     text-align: center;
     flex: 1;
 }
+/* stair 2 section */
 .stair-2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
@@ -173,4 +176,65 @@ li a{
     font-size: 24px;
     font-weight: bolder;
     color: #1f2937;
+}
+/* stair 3 section */
+.stair-3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    align-items:stretch; 
+}
+.stair-3-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.stair-3-content{
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    gap: 180px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #3882f6;
+    padding: 40px 180px 40px 140px;
+    margin: 80px 0px;
+    
+}
+
+.stair-3-left-content{
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+.top-call-to-action{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #e5e7eb;
+    flex: 0 1 auto;
+}
+
+.bottom-call-to-action{
+    font: 15px;
+    color: #e5e7eb;
+    flex: 1 1 auto;
+}
+.stair-3-right-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sing-up-button2{
+    text-align: center;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 80px;
+    height: 25px;
+    flex: 0 0 0;
 }
